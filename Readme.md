@@ -1,7 +1,7 @@
 
 # koa-browserify-middleware
 
-  Quick and dirty Koa wrapper around [browserify-middleware](https://github.com/forbeslindsay/browserify-middleware).
+  Quick and dirty Koa wrapper around [browserify-middleware](https://github.com/forbeslindesay/browserify-middleware).
 
   Works great with [roo](http://github.com/lapwinglabs/roo).
 
@@ -35,7 +35,7 @@ koa.use(_.get('/client.js', browserify('./client.js', { external: ['react'] })))
 
 ## API
 
-Same as [browserify-middleware](https://github.com/forbeslindsay/browserify-middleware).
+Same as [browserify-middleware](https://github.com/forbeslindesay/browserify-middleware).
 
 ## License
 
