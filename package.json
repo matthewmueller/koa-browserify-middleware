@@ -1,11 +1,16 @@
 {
   "name": "koa-browserify-middleware",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "quick and dirty koa wrapper around browserify-middleware",
   "keywords": [],
   "author": "Matthew Mueller <mattmuelle@gmail.com>",
-  "repository": { "type": "git", "url": "git://github.com/MatthewMueller/koa-browserify-middleware.git" },
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MatthewMueller/koa-browserify-middleware.git"
+  },
+  "dependencies": {
+    "browserify-middleware": "^5.0.1"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
